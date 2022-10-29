@@ -252,3 +252,35 @@ box-shadow:7 7 10 lightgrey;
 	transform:rotate(-7deg);
 
 }
+/*docs*/
+.docs-main{
+	background-color:#037aed;
+	color:#fff;
+	height: 264px;
+}
+.docs-main-flex{
+	display:flex;
+	justify-content: space-between;
+	align-items: center; 
+
+}
+.docs-main-text{
+	margin:35px 44px;
+	font-family:'lato',sans-serif;
+	font-weight: 400;
+}
+.docs-main-text h1 {
+	font-size:55px;
+
+}
+.docs-main-text p{ 
+margin-top:50px;
+	font-size:20px;
+}
+.docs-main-flex img{
+	margin:24px;
+	height: 200px;
+	width: 200px;
+}
+
+		
