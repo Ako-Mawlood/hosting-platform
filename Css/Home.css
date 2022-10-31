@@ -77,6 +77,7 @@ color:#fff;
 	margin:30px 0px;
 	font-size:40px; 
 	font-weight:100px;
+	font-family:'lato',sans-serif;
 }
 .showcase p{
 	width:600px;
@@ -204,7 +205,7 @@ grid-column-start:1;
 		grid-row-start:2;
 		grid-row-end:3;
 		text-align: center;
-		margin-left:50px;
+		margin-left:40px;
 }
 
 .published{
@@ -220,20 +221,103 @@ grid-column-start:3;
 		grid-row-start:2; 
 		grid-row-end:3;
 		text-align: center;
-        margin-right:50px;
+        margin-right:40px;
 }
 
+/*install section*/
+.install-grid{
+	margin-top:40px;
+	display:grid;
+grid-template-columns: 2fr 1fr;
+grid-template-rows;
+}
+.install-p-1{
+	width:302px;
+	height:100px;  
+	border-radius:10px; 
+	box-shadow: 5px 5px 15px lightgrey;  
+	font-size:20px; 
+	font-weight: bolder;
+align-self: center;
 
-
-
-
-
-
-
-
-
-
-/*docs*/
+	grid-column-start:2 ;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end:2;
+	padding: 20px;
+}
+.install-p-2{display: flex;
+	width:302px;
+	height:70px;   
+	padding:15px; 
+	padding-top: 23px;
+	margin-top:50px;
+	border-radius:10px; 
+	box-shadow: 5px 5px 15px lightgrey;  
+align-items:flex-start;
+		font-size:20px; 
+	font-weight: bolder;
+		grid-column-start:2 ;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end:3; 
+} 
+.install-grid img{
+	width: 670px;
+	 	grid-column-start:1 ;
+	grid-column-end:2;
+	grid-row-start: 1;
+	grid-row-end:2;
+	margin:20px; 
+} 
+/*cloud-section*/
+.cloud-part{
+	background-color:#037aed;
+	color:#fff;
+	display:flex;
+	height:338px;
+	width: 100%;
+	justify-content: center;
+	align-items:center;
+	padding:40px;
+}
+.cloud-text{
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+}
+.cloud-text h1{
+display: flex;
+align-items: center;
+justify-content: center;
+	font-size:50px; 
+	font-family: 'lato' ,sans-serif;
+	width: 600px;
+	font-weight: 100;
+	padding:15px;
+}
+.cloud-text p{
+	font-size:20px;
+font-family: 'lato' ,sans-serif; 
+padding:15px; 
+} 
+.cloud-text a{
+	background-color:#002240;
+	color:#fff;
+	width:135px;
+	height:45.5px; 
+	border-radius:5px;
+display:flex;
+justify-content: center;
+align-items: center;
+	}
+.cloud-text a:hover{
+	transform:scale(0.98); 
+}
+.cloud-img{
+width:418.3px;
+}
+/*docs*/ 
 .docs-main{
 	background-color:#037aed;
 	color:#fff;
