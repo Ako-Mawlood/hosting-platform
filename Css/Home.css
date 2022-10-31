@@ -43,8 +43,6 @@ align-items:center;}
 .list-n a:hover{
 	border-bottom:2px solid #fff;
 }
-
-
 .flex{
 	display:flex;
 	justify-content: space-between;
@@ -62,9 +60,6 @@ margin-right:40px;
 height: 400px;
 background-color: #037aed;
 color:#fff;
-
- 
-
 	}
 	.flex-s{
 	display:flex;
@@ -78,12 +73,10 @@ color:#fff;
 	font-family:'lato',sans-serif;
 }
 .showcase p{
-	width:600px;
-	
+	width:600px;	
 }
 .showcase-text{
 margin:20px;
-
 }
 .show-b{
 	background:#037aed;
@@ -96,12 +89,12 @@ font-size:15px;
 	margin-bottom:20px;
 	padding:17px;
 }
+.show-b a{color:#fff;}
+
 .show-b:hover{
 transform:scale(0.98);
 }
- 
-
-.card{
+.card{  
 	background-color:#fff;  
 	color:#333;
 	border-radius:10px; 
@@ -139,14 +132,15 @@ outline:none;
 	background-color:#037aed;
      color:#fff;
 	font-size: 17px;
-    bottom: 20px;
 	padding:8px 25px; 
 	border:none;
-	margin-top:30px;
+	margin-top:10px;
 	border-radius:5px;
 }  
-.dgree{ 
-	
+.card-button:hover{
+	transform:scale(0.98);
+} 
+.dgree{ 	 
 	background-color:#fff; 
 	width:100%;
 	height: 100px; 
@@ -277,7 +271,8 @@ align-items:flex-start;
 	justify-content: center;
 	align-items:center;
 	padding:40px;
-}
+	font-family:'lato' , sans-serif;
+}  
 .cloud-text{
 	display: flex;
 	flex-direction:column;
@@ -387,8 +382,6 @@ margin-top:50px;
 	height: 200px;
 	width: 200px;
 }
-
-
                              /*main section Feature*/
 .main-1{
 	background-color:#047aed;
@@ -417,14 +410,11 @@ margin-top:50px;
 	margin-top:70px;
 
 	}
-
 .img-1{
 	width: 200px;
 	height: 200px;
 	margin:33px;
 }
-
-
 .main-2{
 background-color:#f4f4f4;
 height500px;
@@ -445,10 +435,7 @@ height500px;
 .p-2{
 	width: 500px;
 	margin-top:50px;
-
 }
-
-
 .img-2{
 	width: 300px;
 	height: 300px;
@@ -511,12 +498,30 @@ grid-row-end:4;
 height:156px;}
 /*footer*/
 .footer{
-	background-color:#037;
+	background-color:#024;
 	color:#fff;
 	height:222px;
-	display:block;
+	
 }
-                                   
+.footer a{
+	color:#fff;
+}
+.footer-flex{
+	display:flex;  
+	justify-content:space-around;  
+	align-items: center; 
+height: 100%;
+}
+.footer-footer h2{
+	margin-bottom:20px;  
+} 
+.footer-link{ 
+	display:flex;
+	flex-direction:column;
+}
+.footer-link a:hover{ 
+	color:#037aed; 
+}                               
 /*docs*/
 .docs-main{
 	background-color:#037aed;
