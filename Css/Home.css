@@ -42,6 +42,9 @@ align-items:center;}
 .list-n a:hover{
 	border-bottom:2px solid #fff;
 }
+.list-n a:active{
+font-weight: bold;
+}
 .flex{
 	display:flex;
 	justify-content: space-between;
@@ -87,12 +90,14 @@ font-size:15px;
 	margin-top:10px;
 	margin-bottom:20px;
 	padding:17px;
+transition: transform 0.3s ease-out;
 }
 .show-b a{color:#fff;}
 
-.show-b:hover{
+.show-b:hover{ 
 transform:scale(0.98);
-}
+} 
+
 .card{  
 	background-color:#fff;  
 	color:#333;
@@ -135,7 +140,11 @@ outline:none;
 	border:none;
 	margin-top:10px;
 	border-radius:5px;
+transition: transform 0.1s ease-out;
 }  
+.card-button:active{
+	background-color:#04ae;
+}
 .card-button:hover{
 	transform:scale(0.98);
 } 
@@ -304,6 +313,9 @@ align-items: center;
 	}
 .cloud-text a:hover{
 	transform:scale(0.98); 
+}
+.cloud-text a:active{
+	background-color:#037a;
 }
 .cloud-img{
 width:418.3px;
@@ -661,3 +673,30 @@ color:#fff;
 padding:10px;
 border-radius:5px;
 }  
+/*loggin form*/
+.loggin-body{
+	background-color:#333;
+	color:#fff;
+	font-weight: bold;
+	font-size: 30px;
+text-align:center;
+margin-top: 100px;
+	
+
+}
+.loggin-button{
+	background-color:#037aed;
+	color:#fff;
+	text-align: center;
+	border:solid #fff 3px; 
+	padding:20px;
+	margin-top:120px;
+	border-radius:6px;
+	font-size: 20px;
+	font-weight:bold;
+transition:transform 0.8s ease-in;
+} 
+ .loggin-button:active{
+ 	transform:scale(30);
+ }  
+ 
