@@ -59,7 +59,6 @@ margin-right:40px;
 }
 /*home page showcase*/
 .showcase{
-height: 400px;
 background-color: #037aed;
 color:#fff;
 	}
@@ -75,7 +74,8 @@ color:#fff;
 	font-family:'lato',sans-serif;
 }
 .showcase p{
-	width:600px;	
+	max-width:600px;
+
 }
 .showcase-text{
 margin:20px;
@@ -103,7 +103,7 @@ transform:scale(0.98);
 	color:#333;
 	border-radius:10px; 
 	margin-top:90px;
-z-index:100;
+z-index:199;
 width:400px;
 height:350px;
 display:flex;
@@ -111,7 +111,7 @@ display:block;
 padding:30px;
 justify-content: center;
 align-items:center;
-margin-right: 20px;
+margin-right:20px;
 box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .card-items{
@@ -161,13 +161,14 @@ transition: transform 0.1s ease-out;
 background-color:#333;
 } 
 .grid-status-part{
-	height:300px;
+
 	display:grid;
-	position:relative;
-	top:0px;
 	z-index:109;
-	grid-template-columns:1fr 1fr 1fr;
-	grid-template-rows:1fr 1fr;
+	position: relative;
+	grid-row-gap:30px;
+	width: 100%;
+	grid-template-columns: 1fr;
+	grid-template-rows:1fr ;
 align-items:center; 
 }
 
@@ -175,8 +176,7 @@ align-items:center;
 color:#333;
 font-size: 19px;
 font-weight:bolder;
-	width: 500px;
-	height: 60px;
+width:100%;
 	grid-column-start:2;
 		grid-column-end:3;
 		grid-row-start:1; 
@@ -184,11 +184,11 @@ font-weight:bolder;
 }
 .grid-status-part h1{
 	color:#333;
-
 	font-size:35px;
 	font-weight: bolder;
 	padding:10px;
 	margin-bottom:20px;
+
 }
 .grid-status-part h2{
 	color:#1c3fa8;
@@ -200,7 +200,7 @@ grid-column-start:1;
 		grid-row-start:2;
 		grid-row-end:3;
 		text-align: center;
-		margin-left:40px;
+		margin-left:0px;
 }
 
 .published{
@@ -229,7 +229,7 @@ grid-template-rows;
 }
 .install-p-1{
 	font-family:'lato' , sans-serif;
-	width:302px;
+    width: 100%;
 	height:75px;  
 	border-radius:10px; 
 	box-shadow: 5px 5px 15px lightgrey;  
@@ -245,7 +245,7 @@ align-self: center;
 .install-p-2{
 	font-family: 'lato' , sans-serif;
 	display: flex;
-	width:302px;
+	width:100%;
 	height:70px;   
 	padding:15px; 
 	padding-top: 23px;
@@ -261,7 +261,7 @@ align-items:flex-start;
 	grid-row-end:3; 
 } 
 .install-grid img{
-	width: 670px;
+	width:90%;
 	 	grid-column-start:1 ;
 	grid-column-end:2;
 	grid-row-start: 1;
@@ -274,7 +274,7 @@ align-items:flex-start;
 	color:#fff;
 	display:flex;
 	flex-wrap:wrap;
-	height:338px;  
+	
 	width: 100%;
 	justify-content: center;
 	align-items:center;
@@ -334,7 +334,6 @@ align-items:center;
 }
 .languages-part{
 	
-height: 227px;
 width:100%;
 }
 .l-flex{
@@ -699,4 +698,69 @@ transition:transform 0.8s ease-in;
  .loggin-button:active{
  	transform:scale(30);
  }  
- 
+ @media(max-width: 768px){
+ 	.flex{
+ 		background-color:;
+ 	}
+
+ }
+  /*mobile risponsivenes*/
+@media(max-width:500px){
+.showcase{
+
+}
+.showcase{height:579px;}
+ .flex-s{
+ 	display: flex;
+ 	flex-direction: column;
+ 	text-align: center; 
+position: relative;
+bottom: 30px;
+ }
+.card{
+	position: relative;
+	bottom: 90px;
+
+}   
+.p-status{
+	width:100%;
+}
+.grid-status-part{
+display:block; 
+text-align: center;
+margin-bottom: 20px;
+}
+.deployments{
+	text-align:center; 
+}
+.published{
+	text-align: center;
+	margin-top: 10px;
+}
+.projects{
+	text-align: center;
+	position: relative;
+	left:20px;
+	top:10px;
+}
+.install-grid{
+	display:block;
+	width: 85%;
+	margin-bottom:20px;
+}
+.install-grid img{
+	width: 117%;
+	position: relative;
+	right:40px; 
+}
+.cloud-text h1{
+font-size: 37px;
+width:399px;
+}
+.cloud-text p{
+	font-size:16px;
+	text-align: center;
+}
+.cloud-img{
+margin-top:10px;
+}
