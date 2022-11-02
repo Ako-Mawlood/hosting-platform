@@ -26,7 +26,7 @@ a{
 	margin: auto;
 }
 .navbar{
-	background-color:#047aed;
+	background-color:#124;
 	height:70px;
 	font-family:sans-serif,'lato';
 	color:#fff;
@@ -55,12 +55,12 @@ align-items:center;
 margin-right:40px;
 }
 .list-n li{
-	margin:0px 10px;
+	margin:0px 10px; 
 }
 /*home page showcase*/
 .showcase{
-background-color: #037aed;
-color:#fff;
+background-color:#124;
+color:#fff; 
 	}
 	.flex-s{
 	display:flex;
@@ -183,7 +183,7 @@ width:100%;
 		grid-row-end:2;
 }
 .grid-status-part h1{
-	color:#333;
+	color:#000;
 	font-size:35px;
 	font-weight: bolder;
 	padding:10px;
@@ -191,7 +191,7 @@ width:100%;
 
 }
 .grid-status-part h2{
-	color:#1c3fa8;
+	color:#036aed;
 	font-weight:bold;
 }
 .deployments{
@@ -333,7 +333,7 @@ justify-content: center;
 align-items:center; 
 }
 .languages-part{
-	
+	margin-bottom: 20px;
 width:100%;
 }
 .l-flex{
@@ -394,8 +394,8 @@ margin-top:50px;
 }
                              /*main section Feature*/
 .main-1{
-	background-color:#047aed;
-	height:278px;
+	background-color:#124; 
+
 }
 .flex-m-1{
 	display:flex;
@@ -415,7 +415,7 @@ margin-top:50px;
 }
 .p-1{
 	font-size: 20px;
-	width: 550px;
+	width: 90%;
 	font-weight:600;
 	margin-top:70px;
 
@@ -427,7 +427,6 @@ margin-top:50px;
 }
 .main-2{
 background-color:#f4f4f4;
-height500px;
 }
 .flex-m-2{
 	display:flex;
@@ -538,7 +537,7 @@ height: 100%;
 }                               
 /*docs*/
 .docs-main{
-	background-color:#037aed;
+	background-color:#124;
 	color:#fff;
 	height: 264px;
 }
@@ -705,9 +704,27 @@ transition:transform 0.8s ease-in;
 
  }
   /*mobile risponsivenes*/
-@media(max-width:500px){
-.showcase{
-
+@media(max-width:700px){
+	/*Home page*/
+.flex{
+	display:flex;
+	flex-direction:column;
+	align-items:center; 
+	justify-content: center;
+}
+.head-1{
+	margin-right:50px;
+	margin-top: 10px;
+}
+.logo-n{
+margin-right: 76px;
+}
+.list-n{
+	background-color:lightgrey;  
+}
+.list-n a{
+	color:#124;
+	font-weight: bold;
 }
 .showcase{height:579px;}
  .flex-s{
@@ -763,4 +780,17 @@ width:399px;
 }
 .cloud-img{
 margin-top:10px;
+}
+/*Feature page*/
+.main-1{
+	position: relative;
+	bottom:0px;
+
+
+}
+.flex-m-1{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
 }
